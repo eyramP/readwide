@@ -144,6 +144,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORSE_URL_REGEX = r"^api/.*$"
 
+AUTH_USER_MODEL = "user.User"
+
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
@@ -165,3 +167,4 @@ LOGGING = {
         "handlers": ["console"]
     }
 }
+
